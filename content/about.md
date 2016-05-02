@@ -6,5 +6,4 @@ title = "about"
 
 +++
 
-# Hello World
-
+I'm an avid technologist, physicist, mathematician, and computer scientist.  I've been programming since my early teens; and am interested in algorithm heavy code.
