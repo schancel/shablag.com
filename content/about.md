@@ -6,4 +6,4 @@ title = "about"
 
 +++
 
-I'm an avid technologist, physicist, mathematician, and computer scientist.  I've been programming since my early teens; and am interested in algorithm heavy code.
+I'm an avid technologist, physicist, mathematician, and computer scientist.  I've been programming since my early teens; and am enthralled by the art of software.
