@@ -6,7 +6,7 @@ languageCode = "en-us"
 title = "#!blag"
 MetaDataFormat = "toml"
 theme = "slim"
-paginate = 3
+paginate = 10
 PaginatePath = "/"
 
 [author]
