@@ -17,9 +17,9 @@
             {{ .Content }}
           </div>
         </div>
-        <div class="pagination">{{ if .Prev }}
-          <a class="btn previous " href="{{.Prev.Permalink}}"> Prev</a> {{ end }} {{ if .Next }}
-          <a class="btn next " href="{{.Next.Permalink}}"> Next</a> {{ end }}
+        <div class="pagination">{{ if .PrevPage }}
+          <a class="btn previous " href="{{.PrevPage.Permalink}}"> Prev</a> {{ end }} {{ if .NextPage }}
+          <a class="btn next " href="{{.NextPage.Permalink}}"> Next</a> {{ end }}
         </div>
       </div>
     </div>
