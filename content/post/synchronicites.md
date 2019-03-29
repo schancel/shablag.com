@@ -1,11 +1,9 @@
-+++
-date = "2016-05-01T21:55:06-07:00"
-description = ""
-keywords = []
-title = "Synchronicites"
-
-+++
-
+---
+date: "2016-05-01T21:55:06-07:00"
+description: ""
+keywords: []
+title: "Synchronicities"
+---
 In Hong Kong, a man opens a dictionary to look up a word. Being distracted, he reads another and thinks to himself, “What an interesting adjective!” He proceeds to use it the rest of the day with his friends and colleagues. All of whom also learn the word, and proceed to use it on their blogs; and with their friends and colleagues.
 
 And here you are, driving your car to work a week later, and you hear the word on the radio. You look up the word and learn it for the first time. Ten more times that day you hear the word. You think to yourself, “Am I noticing this only because I finally looked this word up, or did by some strange mechanism my learning of the word cause others to use it?“
