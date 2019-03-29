@@ -21,38 +21,16 @@ PaginatePath = "/"
     post = "/article/:title/"
 
 [params]
-
-    # Change the color scheme of Slender.
-    # See above for preview and list of color schemes.
-    colorscheme = "white"
-
-    # Tagline; HTML accepted here. Keep it concise.
-    tagline = "Saving the world one quip at a time"
-
-    # Footer; Markdown accepted here.
-    footer = "Copyright 2015 &copy; Shammah Chancellor"
-
-    # Description and keywords for <meta> tags.
-    # Remember to set this for your main page.
-    # This will be overridden by whatever is set by the page or post,
-    # defined by `description` and `keywords` variables in the front matter
-    # of the markdown file.
-    description = ""
-    keywords = "default,page,keywords"
-
     # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
     # Remove, comment, or leave blank any field to leave them out.
-    #email = "mailto:your-email"
-    github = "http://github.com/schancel"
-    #bitbucket = "url-to-your-bitbucket"
-    twitter = "https://twitter.com/micropresident"
-    #stackoverflow = "url-to-your-stackoverflow"
-    linkedin = "https://www.linkedin.com/in/schancellor"
-    #facebook = "url-to-your-facebook"
+    GithubID = "schancel"
+    TwitterID = "micropresident"
 
     # Google Analytics
     # Remove, comment, or leave it blank if you don't have one.
-    #ganalytics = "your-google-analytics-tracking-code"
+    AnalyticsID = "UA-137279049-1"
+
+    Summary = false
 
 [menu]
 
