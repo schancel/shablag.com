@@ -3,9 +3,11 @@ title: "Every new beginning"
 date: 2019-03-28T19:32:21-07:00
 ---
 
-On December 10th of 2018, by mutual decision, I stopped being a maintainer for Bitcoin ABC. This happened primarily due to differences in work styles between Amaury Séchet and myself. Despite this, I still believe Amaury is the best person to lead the technical direction of the Bitcoin Cash protocol.
+EDIT: My memory is bad, and used the wrong date. The lawsuit become public knowledge on the 6th of December, and I was served on the 8th.
 
-On December 15th, 2018, I was served paperwork for a lawsuit against myself and several other corporations and individuals. The primary purpose of this lawsuit seems to be to waste time and money.
+On December 3rd of 2018, by mutual decision, I stopped being a maintainer for Bitcoin ABC. This happened primarily due to differences in work styles between Amaury Séchet and myself. Despite this, I still believe Amaury is the best person to lead the technical direction of the Bitcoin Cash protocol.
+
+On December 8th, 2018, I was served paperwork for a lawsuit against myself and several other corporations and individuals. The primary purpose of this lawsuit seems to be to waste time and money.
 
 On March 20th of 2019, Antony Zegers [resigned from Bitcoin Unlimited](https://medium.com/@Mengerian/why-i-am-leaving-bitcoin-unlimited-263f9c7a959b) in protest of how some other BU members have been responding to the lawsuit against myself and other individuals. It’s terrible that there are BU members who rejoice in the misfortune of others. While I appreciate Antony’s consideration, that alone would not motivate me to leave Bitcoin Unlimited.
 
