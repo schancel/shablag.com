@@ -72,6 +72,9 @@ So, while this feature appears useful, it causes a couple of problems:
 2. It adds n! complexity to processing (not validating) a new block.
 3. It prevents long chains of zero-conf transactions for high-frequency, in order to prevent DoS attacks.
 
+![Effect of Raising Chained Tx Limit](/20180331-MempoolAccept.png "Performance Impacts of Raising the Ancestor andDescendant Transaction Limit for Bitcoin Cash")
+Taken from [Raising the Ancestor and Descendant Transaction Limit for Bitcoin Cash](/20180331-ChainedTx.pdf)
+
 Now, this feature only has practical applicability when the mempool size is larger than the maximum blocksize for an extended period of time. In the case where the mempool size is less than the maximum blocksize, it will be cleared with each new block.  In this case, any logic to choose which transactions should be in a block is rendered meaningless.
 
 There are two conditions where the mempool size would be larger than the block size in practice:
