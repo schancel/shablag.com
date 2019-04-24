@@ -6,13 +6,17 @@ draft: false
 
 This post is for anyone who wishes they could contribute to Bitcoin-ABC but doesn't really know where to start.  If that's you, then you should start with what Andre Alexandrescu calls "[right work.](https://forum.dlang.org/post/q7u6g1$94p$1@digitalmars.com)" The linked post was recently [added to the Bitcion-ABC Contributing Guide](https://reviews.bitcoinabc.org/D2780).
 
-The gist was that there are three important classifications of open source contributions:
+The gist was that there are several important classifications of open source contributions:
 
-1. Great work: It solves a problem eligantly and simply.  The solution does not add a disproportionate amount of complexity to the codebase.
-2. Good work: Adds some useful feature, but is often complex and hard to review.  It also often introduces bugs, and increases the future maintenance burden of the codebase.
-3. Right work: Here Dr. Alexandrescu uses a lot of examples specificly relating to the D programming language and its standard library and compiler frontend. The changes are easy and fast to review. Also, the more right work is done, the more likely Great Work can be done easily in the future.
+1. Great work -- It solves a problem eligantly and simply.  The solution does not add a disproportionate amount of complexity to the codebase.
+2. Good work[^1] -- This type of work should be avoided; it is often deceptively bad.  Although it may add some useful feature, it often:
+  * Large and complicated for the benefit it brings
+  * Time needs to be spent convincing people the change is a good idea.
+  * The quality needs to be improved, so careful review and multiple cycles of review are required.
+3. Bad work -- Easy to identify as wrong, and reject.  This doesn't take much time from the maintainers, but is often frustrating to the person trying to contribute
+4. Right work -- Here Dr. Alexandrescu uses a lot of examples specificly relating to the D programming language and its standard library and compiler frontend. The changes are easy and fast to review. Also, the more right work is done, the more likely Great Work can be done easily in the future.
 
-There is a huge and undersupplied demand for Right Work in the world of software engineering, and especially open source.  The reason for this is that right work does not result in any directly visible impact to the user[^1] -- no bug is fixed, nor feature added.  The only discernible impact is that future work on the codebase is easier.  Unfortunately, other engineers are often the least likely to give praise, even for this type of work.  
+There is a huge and undersupplied demand for Right Work in the world of software engineering, and especially open source.  The reason for this is that right work does not result in any directly visible impact to the user[^3] -- no bug is fixed, nor feature added.  The only discernible impact is that future work on the codebase is easier.  Unfortunately, other engineers are often the least likely to give praise, even for this type of work.  
 
 But what _exactly_ is "right work"? Right work, simply put, is cleaning up small messes. Now, you may think that if every new patch that went into a project was perfect, that the project as a whole would never need any "right work".  However, `bitcoind` is a relatively old codebase that has had lots of contributors. Often with open source projects, authors come in and add some functionality and then leave.  They might have done a great job, but then later another person will come and remove or alter the functionality.  Possibly because it is no longer useful, or maybe they generalize it.  Unfortunately, it is easy to leave unnecessary code behind which needs encurs a maintenance cost -- although it may provide no function to the software.
 
@@ -135,6 +139,8 @@ So, here's some major classes of types of "right work" I've seen in Bitcoin-ABC,
 * [Update various debian packaging files](https://reviews.bitcoinabc.org/D347) -- Freetrader
 * [OSX: Change app bundle name and executable name to BitcoinABC-Qt.app and change related OSX-specific handlers and Info.plist stuff to match.](https://reviews.bitcoinabc.org/D510) -- Calin Culianu
 
-[^1]: Who might be a software engineer being inconvenienced enough to contribute.
+[^1]: An example of what I could consider "good work" is actually something I am working on, which is [new package selection code](https://reviews.bitcoinabc.org/D2866).  Unfortunately, it seems to be necessary and no better solution has presented it.  Hopefully this will lead to potential for right work in other areas of the code.
 
-[^2]: Especially when their livelyhoods do not depend on the codebase being tidy; or worse their livelihoods depends on the codebase NOT being tidy...
+[^2]: Who might be a software engineer being inconvenienced enough to contribute.
+
+[^3]: Especially when their livelyhoods do not depend on the codebase being tidy; or worse their livelihoods depends on the codebase NOT being tidy...
