@@ -9,10 +9,11 @@ This post is for anyone who wishes they could contribute to Bitcoin-ABC but does
 The gist was that there are several important classifications of open source contributions:
 
 1. Great work -- It solves a problem eligantly and simply.  The solution does not add a disproportionate amount of complexity to the codebase.
-2. Good work[^1] -- This type of work should be avoided; it is often deceptively bad.  Although it may add some useful feature, it often:
-  * Large and complicated for the benefit it brings
+2. Good work[^1] -- This type of work should be avoided; it is often deceptively bad.  Although it may add some useful feature, it often is:
+  * Large and complicated for the benefit it brings which potentially introduces bugs.
   * Time needs to be spent convincing people the change is a good idea.
   * The quality needs to be improved, so careful review and multiple cycles of review are required.
+  * Drains resources away from the maintainers who must deal with the above.
 3. Bad work -- Easy to identify as wrong, and reject.  This doesn't take much time from the maintainers, but is often frustrating to the person trying to contribute
 4. Right work -- Here Dr. Alexandrescu uses a lot of examples specificly relating to the D programming language and its standard library and compiler frontend. The changes are easy and fast to review. Also, the more right work is done, the more likely Great Work can be done easily in the future.
 
