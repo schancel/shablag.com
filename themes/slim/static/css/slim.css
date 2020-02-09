@@ -86,7 +86,8 @@ a {
     text-decoration: underline; }
 
 em {
-  font-style: italic; }
+  text-emphasis-style: circle;
+  text-emphasis-position: under; }
 
 code {
   font-family: 'Source Code Pro', Monaco, Courier, monospace;
